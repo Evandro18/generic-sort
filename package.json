@@ -14,6 +14,9 @@
     "name": "Evandro Terra Gonçalves",
     "email": "evandro18.goncalves@gmail.com"
   },
+  "scripts": {
+    "test": "echo Ok"
+  },
   "license": "ISC",
   "keywords": [
     "array",

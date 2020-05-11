@@ -1,3 +1,5 @@
+'use strict'
+
 const _get = require('lodash/get')
 
 const genericSort = ({ list = [], label = '', func, asc = true }) => {
