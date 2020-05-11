@@ -1,6 +1,6 @@
 const _get = require('lodash/get')
 
-exports.genericSort = ({ list = [], label = '', func, asc = true }) => {
+const genericSort = ({ list = [], label = '', func, asc = true }) => {
 	const compare = (a, b) => {
 		if (typeof a === 'string' && typeof b === 'string') {
 			return asc ? a.localeCompare(b) : b.localeCompare(a)
@@ -27,3 +27,5 @@ exports.genericSort = ({ list = [], label = '', func, asc = true }) => {
 		return compare(a, b)
 	})
 }
+
+module.exports = genericSort
