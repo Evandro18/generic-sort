@@ -2,12 +2,27 @@
   "name": "sortable",
   "version": "1.0.0",
   "description": "",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Evandro18/generic-sort.git"
   },
-  "author": "",
+  "author": {
+    "name": "Evandro Terra Gonçalves",
+    "email": "evandro18.goncalves@gmail.com"
+  },
   "license": "ISC",
+  "keywords": [
+    "array",
+    "element",
+    "item",
+    "length",
+    "sort",
+    "sortable"
+  ],
   "dependencies": {
     "lodash": "^4.17.15"
   }
