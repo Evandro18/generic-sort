@@ -1,7 +1,7 @@
 {
-  "name": "sortable",
+  "name": "generic-sort",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple function for sort lists",
   "files": [
     "index.js"
   ],
